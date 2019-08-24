@@ -1,15 +1,12 @@
-$base-gold-color: #d7c76e;
-$base-blue-color: #283891; 
-$base-text-bg-color: gray;
-$base-text-color: black;
+@import './base.scss';
 
 body {
     color: $base-text-color;
     background-color: $base-text-bg-color;
+    font-family: $base-sans-serif-font;
 }
 
 .u8-navbar {
-    /* background-color: #FDEAA8; */
     background-color: $base-gold-color;
 }
 
@@ -19,9 +16,6 @@ body {
 }
 
 .auth-form {
-    // margin-top: 5rem;
-    // padding-left: 10rem;
-    // padding-right: 10rem;
     padding: 5rem 10rem 0 10rem;
 
     button {
