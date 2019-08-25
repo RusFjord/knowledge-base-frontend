@@ -80,13 +80,6 @@ a {
     padding-right: 0.5rem;
   }
 
-  // #u8-close-sidebar {
-  //     padding-right: .5rem;
-  // }
-
-  // #u8-open-sidebar {
-  //     padding-right: .5rem;
-  // }
   .u8-open-close-sidebar {
     padding-right: 0.5rem;
   }
@@ -110,7 +103,7 @@ a {
 
 .u8-table-of-contents {
   background-color: $base-blue-color;
-  border: 3px solid $base-gold-color;
+  box-shadow: 0 0 10px $base-gold-color;
   border-radius: 10px;
   padding: 0.5rem;
   a {
@@ -167,8 +160,6 @@ a {
   ul {
     display: block;
     li {
-    //   display: inline-block;
-    //   background-color: $base-blue-color;
       color: $base-blue-color;
       font-weight: bold;
       font-size: 1.1rem;
