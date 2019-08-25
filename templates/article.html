@@ -7,31 +7,156 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light u8-navbar">
+        <!-- <div class="row"> -->
         <a class="navbar-brand" href="#">
             <img src="./img/logo.png" height="60" class="d-inline-block align-top" alt="logo">
         </a>
-        <div class="text-right w-100 d-none" id="u8-bars"><i class="fas fa-bars fa-2x"></i></div>
-    </nav>
-    <div class="sidebar-sticky h-100" id="u8-sidebar">
-        <ul class="u8-menu">
-            <li class="u8-menu-item text-right u8-close-sidebar"><i class="fas fa-times"></i></li>
-            <li class="u8-menu-item">Главная</li>
-            <li class="u8-menu-item">Категории</li>
-            <li class="u8-menu-item">Роли</li>
-            <li class="u8-menu-item">Типы статей</li>
-            <li class="u8-menu-item">Администрирование</li>
-        </ul>
-    </div>
-    <div class="container-fluid h-100">
-        <div class="row">
-            kvclkflknfdswlkfcnmsfdvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
-        </div>
 
+        <!-- </div> -->
+    </nav>
+    <div class="u8-wrap">
+        <div class="sidebar-sticky" id="u8-sidebar">
+            <ul class="u8-menu">
+                <li class="u8-menu-item text-right u8-open-close-sidebar"><i class="fas fa-arrow-left"
+                        id="u8-close-sidebar"></i><i class="d-none fas fa-arrow-right" id="u8-open-sidebar"></i></li>
+                <li class="u8-menu-item u8-full-menu"><i class="fas fa-home"></i><span>Портал знаний</span></li>
+
+                <li class="u8-menu-item u8-full-menu"><i class="fas fa-briefcase"></i>Категории</li>
+                <li class="u8-menu-item u8-full-menu"><i class="fas fa-user-tag"></i>Роли</li>
+                <li class="u8-menu-item u8-full-menu"><i class="fas fa-newspaper"></i>Типы статей</li>
+                <li class="u8-menu-item u8-full-menu"><i class="fas fa-tools"></i>Настройки</li>
+
+                <li class="u8-menu-item u8-icon-menu d-none"><i class="fas fa-home"></i></li>
+                <li class="u8-menu-item u8-icon-menu d-none"><i class="fas fa-briefcase"></i></li>
+                <li class="u8-menu-item u8-icon-menu d-none"><i class="fas fa-user-tag"></i></li>
+                <li class="u8-menu-item u8-icon-menu d-none"><i class="fas fa-newspaper"></i></li>
+                <li class="u8-menu-item u8-icon-menu d-none"><i class="fas fa-tools"></i></li>
+            </ul>
+        </div>
+        <div class="container h-100">
+            <div class="row">
+                <article class="w-100 u8-article">
+                    <h2 class="w-100 text-center u8-article-title">Заголовок статьи</h2>
+                    <section class="row u8-article-info">
+                        <div class="col-4">Автор:
+                            <a href="#" class="u8-user-ref">
+                                Федор Ендовицкий
+                            </a>
+                        </div>
+                        <div class="col-4">Категория:
+                            <a href="#" class="u8-category-ref">
+                                ИТ-отдел
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            Дата создания: 12.01.2019 г.
+                        </div>
+                    </section>
+                    <section class="col-3 u8-table-of-contents">
+                        <span class="d-inline-block w-100 text-center u8-title-toc">
+                            <h4>Содержание:</h4>
+                        </span>
+                        <ul>
+                            <li><a href="#chapter1">Часть 1</a></li>
+                            <li><a href="#chapter2">Часть 2</a></li>
+                            <li><a href="#chapter3">Часть 3</a></li>
+                            <li><a href="#chapter4">Часть 4</a></li>
+                            <li><a href="#chapter5">Часть 5</a></li>
+                        </ul>
+                    </section>
+                    <section class="row col-12 u8-article-content">
+                        <h3 class="u8-article-chapter" id="chapter1">Введение</h3>
+                        <p> Не следует, однако забывать, что постоянное информационно-пропагандистское обеспечение
+                            нашей
+                            деятельности обеспечивает широкому кругу (специалистов) участие в формировании систем
+                            массового
+                            участия. Разнообразный и богатый опыт новая модель организационной деятельности
+                            обеспечивает
+                            широкому кругу (специалистов) участие в формировании дальнейших направлений развития.
+                        </p>
+                        <h3 class="u8-article-chapter" id="chapter2">Рамки</h3>
+                        <p>Идейные соображения высшего порядка, а также рамки и место обучения кадров позволяет
+                            выполнять
+                            важные задания по разработке форм развития. Товарищи! укрепление и развитие структуры
+                            требуют от
+                            нас анализа направлений прогрессивного развития.</p>
+                        <h3 class="u8-article-chapter" id="chapter3">Идейные соображения</h3>
+                        <p>Идейные соображения высшего порядка, а также новая модель организационной деятельности
+                            играет
+                            важную роль в формировании системы обучения кадров, соответствует насущным потребностям.
+                            Таким
+                            образом новая модель организационной деятельности обеспечивает широкому кругу
+                            (специалистов)
+                            участие в формировании систем массового участия. Не следует, однако забывать, что
+                            постоянный
+                            количественный рост и сфера нашей активности представляет собой интересный эксперимент
+                            проверки
+                            дальнейших направлений развития. Равным образом постоянное
+                            информационно-пропагандистское
+                            обеспечение нашей деятельности в значительной степени обуславливает создание форм
+                            развития. Не
+                            следует, однако забывать, что начало повседневной работы по формированию позиции
+                            способствует
+                            подготовки и реализации позиций, занимаемых участниками в отношении поставленных задач.
+                        </p>
+                        <h3 class="u8-article-chapter" id="chapter4">Товарищи</h3>
+                        Товарищи! рамки и место обучения кадров влечет за собой процесс внедрения и модернизации
+                        дальнейших направлений развития. Значимость этих проблем настолько очевидна, что постоянное
+                        информационно-пропагандистское обеспечение нашей деятельности требуют от нас анализа системы
+                        обучения кадров, соответствует насущным потребностям. Идейные соображения высшего порядка, а
+                        также начало повседневной работы по формированию позиции способствует подготовки и
+                        реализации
+                        позиций, занимаемых участниками в отношении поставленных задач.
+                        <h3 class="u8-article-chapter" id="chapter5">Реализация</h3>
+                        Равным образом реализация намеченных плановых заданий позволяет оценить значение позиций,
+                        занимаемых участниками в отношении поставленных задач. Идейные соображения высшего порядка,
+                        а
+                        также рамки и место обучения кадров способствует подготовки и реализации существенных
+                        финансовых
+                        и административных условий. Идейные соображения высшего порядка, а также постоянный
+                        количественный рост и сфера нашей активности влечет за собой процесс внедрения и
+                        модернизации
+                        модели развития. Разнообразный и богатый опыт постоянный количественный рост и сфера нашей
+                        активности представляет собой интересный эксперимент проверки позиций, занимаемых
+                        участниками в
+                        отношении поставленных задач. Идейные соображения высшего порядка, а также постоянное
+                        информационно-пропагандистское обеспечение нашей деятельности требуют от нас анализа
+                        существенных финансовых и административных условий. Разнообразный и богатый опыт новая
+                        модель
+                        организационной деятельности требуют от нас анализа соответствующий условий активизации.
+                    </section>
+                </article>
+                <section class="col-12 ">
+                    <div class="card">
+                        <div class="card-header">Теги:</div>
+                        <div class="card-body u8-article-tags">
+                            <ul>
+                                <li><a href="#" class="u8-tag">финансы</a></li>
+                                <li><a href="#" class="u8-tag">идеи</a></li>
+                                <li><a href="#" class="u8-tag">опыт</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-12">
+                    <div class="card">
+                        <div class="card-header">Роли:</div>
+                        <div class="card-body u8-article-roles">
+                            <ul>
+                                <li>финансовый менеджер</li>
+                                <li>бухгалтер</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="./js/main.js"></script>
