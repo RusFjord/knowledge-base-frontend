@@ -46,6 +46,7 @@ a {
 
 .u8-wrap {
   position: relative;
+  overflow: hidden;
 }
 
 .u8-menu-col {
@@ -59,7 +60,7 @@ a {
   width: 15rem;
   height: 100%;
   margin: 0;
-  left: 0;
+  left: -12rem;
   background-color: $base-blue-color;
   border-right: 3px solid $base-gold-color;
   .u8-menu {
@@ -81,7 +82,7 @@ a {
   }
 
   .u8-open-close-sidebar {
-    padding-right: 0.5rem;
+    padding: .5rem;
   }
 }
 
