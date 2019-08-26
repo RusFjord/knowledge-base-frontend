@@ -23,3 +23,11 @@ $('#u8-open-sidebar').click(
         $('.fa-arrow-left').removeClass('d-none');
     }
 );
+
+$('.u8-toc-item').click(
+    (event) => {
+        let id  = $(event.currentTarget).attr('href'); //заберем айдишник блока с параметром URL
+        let top = $(id).offset().top; //определим высоту от начала страницы до якоря
+	    $('body,html').animate({scrollTop: top}, 1000);
+    }
+);
