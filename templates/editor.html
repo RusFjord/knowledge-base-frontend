@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Страница редактора</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light u8-navbar">
+        <!-- <div class="row"> -->
+        <a class="navbar-brand" href="#">
+            <img src="./img/logo.png" height="60" class="d-inline-block align-top" alt="logo">
+        </a>
+
+        <!-- </div> -->
+    </nav>
+    <div class="u8-wrap">
+        <div class="sidebar-sticky" id="u8-sidebar">
+            <ul class="u8-menu">
+                <li class="u8-menu-item text-right u8-open-close-sidebar"><i class="d-none fas fa-arrow-left"
+                        id="u8-close-sidebar"></i><i class="fas fa-arrow-right" id="u8-open-sidebar"></i></li>
+
+                <li class="u8-menu-item u8-full-menu d-none"><i class="fas fa-home"></i><span>Портал знаний</span></li>
+                <li class="u8-menu-item u8-full-menu d-none"><i class="fas fa-briefcase"></i>Категории</li>
+                <li class="u8-menu-item u8-full-menu d-none"><i class="fas fa-user-tag"></i>Роли</li>
+                <li class="u8-menu-item u8-full-menu d-none"><i class="fas fa-newspaper"></i>Типы статей</li>
+                <li class="u8-menu-item u8-full-menu d-none"><i class="fas fa-tools"></i>Настройки</li>
+
+                <li class="u8-menu-item u8-icon-menu"><i class="fas fa-home"></i></li>
+                <li class="u8-menu-item u8-icon-menu"><i class="fas fa-briefcase"></i></li>
+                <li class="u8-menu-item u8-icon-menu"><i class="fas fa-user-tag"></i></li>
+                <li class="u8-menu-item u8-icon-menu"><i class="fas fa-newspaper"></i></li>
+                <li class="u8-menu-item u8-icon-menu"><i class="fas fa-tools"></i></li>
+            </ul>
+        </div>
+        <div class="container h-100">
+            <div class="row">
+                <article class="w-100 u8-article">
+                    
+                <div class="card">
+                    <div class="card-header">Редактор статьи</div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                              <label for="titleArticle">Наименование статьи</label>
+                              <input type="text" class="form-control" id="titleArticle" placeholder="Наименование">
+                            </div>
+                            <div class="u8-controls" id="controls"></div>
+                            <div class="u8-editor" id="editor"></div>
+                          </form>
+                    </div>
+                </div>
+                    
+                </article>
+                
+                
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    
+    <script src="https://cdn.ckeditor.com/ckeditor5/12.4.0/decoupled-document/ckeditor.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

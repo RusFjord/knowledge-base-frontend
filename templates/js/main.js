@@ -31,3 +31,14 @@ $('.u8-toc-item').click(
 	    $('body,html').animate({scrollTop: top}, 1000);
     }
 );
+
+DecoupledEditor
+        .create( document.querySelector( '#editor' ) )
+        .then( editor => {
+            const toolbarContainer = document.querySelector( '#controls' );
+
+            toolbarContainer.appendChild( editor.ui.view.toolbar.element );
+        } )
+        .catch( error => {
+            console.error( error );
+        } );
