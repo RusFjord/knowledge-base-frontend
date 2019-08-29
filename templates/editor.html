@@ -41,29 +41,74 @@
         <div class="container h-100">
             <div class="row">
                 <article class="w-100 u8-article">
-                    
-                <div class="card">
-                    <div class="card-header">Редактор статьи</div>
-                    <div class="card-body">
-                        <form>
-                            <div class="form-group">
-                              <label for="titleArticle">Наименование статьи</label>
-                              <input type="text" class="form-control" id="titleArticle" placeholder="Наименование">
-                            </div>
+
+                    <div class="card u8-article-editor">
+                        <div class="card-header">Редактор статьи</div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="titleArticle">Наименование статьи</label>
+                                    <input type="text" class="form-control" id="titleArticle"
+                                        placeholder="Наименование">
+                                </div>
+                            </form>
+                            <form>
+                                <div class="u8-article-roles">
+                                    <ul>
+                                        <li>Финансовый менеджер</li>
+                                    </ul>
+                                </div>
+                                <div class="form-inline u8-form-group">
+                                    <div class="form-group">
+                                        <label for="selectRoles">Добавьте роли</label>
+                                        <select class="form-control" id="selectRoles">
+                                            <option>Менеджер по продажам</option>
+                                            <option>Финансовый менеджер</option>
+                                            <option>ИТ</option>
+                                            <option>Бухгалтер</option>
+                                        </select>
+                                    </div>
+                                    <button class="btn u8-add-role-to-article">Добавить</button>
+                                </div>
+                            </form>
+                            <form>
+                                <div class="u8-article-tags">
+                                    <ul>
+                                        <li><a href="#" class="u8-tag">финансы</a></li>
+                                        <li><a href="#" class="u8-tag">идеи</a></li>
+                                        <li><a href="#" class="u8-tag">опыт</a></li>
+                                    </ul>
+                                </div>
+                                <div class="form-inline u8-form-group">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <div class="u8-input">
+                                                <div class="form-group">
+                                                    <label for="addTags">Добавьте теги</label>
+                                                    <input type="text" class="form-control" id="addTags"
+                                                        placeholder="Введите тег">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <button class="btn u8-add-role-to-article">Добавить</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
                             <div class="u8-controls" id="controls"></div>
                             <div class="u8-editor" id="editor"></div>
-                          </form>
+                        </div>
                     </div>
-                </div>
-                    
+
                 </article>
-                
-                
+
+
             </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    
+
     <script src="https://cdn.ckeditor.com/ckeditor5/12.4.0/decoupled-document/ckeditor.js"></script>
     <script src="./js/main.js"></script>
 </body>

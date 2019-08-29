@@ -171,3 +171,35 @@ a {
     }
   }
 }
+
+.u8-add-role-to-article {
+  color: $base-gold-color;
+  background-color: $base-blue-color;
+  border-color: $base-blue-color;
+  margin-left: 1em;
+}
+
+.u8-article-editor {
+  .card-body {
+    form {
+      border: 1px solid rgba($base-blue-color, .3);
+      border-radius: 10px;
+      padding: .5rem;
+      margin: .5rem;
+    }
+  }
+}
+
+.u8-form-group {
+  padding-bottom: 1em;
+  label {
+    padding-right: 1em;
+  }
+  .u8-input {
+    // width: 100%;
+  }
+
+  .u8-editor {
+    min-height: auto;
+  }
+}
