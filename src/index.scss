@@ -1,0 +1,20 @@
+@import "./base.scss";
+
+html {
+    height: 100%;
+}
+
+body {
+    color: $base-text-color;
+    background-color: $base-text-bg-color;
+    font-family: $base-sans-serif-font;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: $base-serif-font;
+}
