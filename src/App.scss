@@ -1,0 +1,15 @@
+@import './base.scss';
+.u8-navbar {
+    background-color: $base-gold-color;
+    color: $base-blue-color;
+    text-align: center;
+}
+
+.u8-navbar-btn {
+    color: $base-gold-color;
+    background-color: $base-blue-color;
+}
+
+.u8-navbar-title {
+    padding-left: 2rem;
+}
