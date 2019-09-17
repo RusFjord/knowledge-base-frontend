@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.scss';
 import logo from './logo.png';
+import Page from './components/Page/Page';
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
         </div>
         </div>
       </nav>
+      <Page />
+      <footer className='u8-footer'>
+        Created by Endovitskiy Fedor (C) 2019
+      </footer>
     </div>
   );
 }
