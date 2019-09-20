@@ -1,4 +1,9 @@
 @import './base.scss';
+
+#root {
+    height: 100%;
+}
+
 .u8-navbar {
     background-color: $base-gold-color;
     color: $base-blue-color;
