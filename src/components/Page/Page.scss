@@ -1,5 +1,7 @@
 @import '../../base.scss';
 
-.u8-page {
+.u8-wrap {
+    position: relative;
+    overflow: hidden;
     height: 100%;
 }
