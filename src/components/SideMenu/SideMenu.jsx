@@ -27,9 +27,9 @@ export default class SideMenu extends Component {
 
         let items = sideMenuItems.map((item, index) => {
             return (
-                <li className="u8-menu-item u8-full-menu" key={index}>
+                <li className="u8-menu-item" key={index}>
                     {item.icon}
-                    <span>{(this.state.isOpen) ? item.text : ''}</span></li>
+                    {(this.state.isOpen) ? <span>{item.text}</span> : ''}</li>
             )
 
         });

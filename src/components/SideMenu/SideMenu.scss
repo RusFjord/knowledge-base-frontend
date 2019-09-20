@@ -7,11 +7,9 @@
 #u8-sidebar {
     position: relative;
     z-index: 100;
-    //width: 15rem;
     display: inline-block;
     height: 100%;
     margin: 0;
-    //left: -12.5rem;
     background-color: $base-blue-color;
     border-right: 3px solid $base-gold-color;
     .u8-menu {
@@ -40,8 +38,13 @@
 .u8-menu-item {
     list-style-type: none;
     color: $base-gold-color;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem;
     border-bottom: 1px solid;
+    
+    span {
+        margin-left: .5rem;
+        display: inline-block;
+    }
 }
 
 .u8-icon-menu {
