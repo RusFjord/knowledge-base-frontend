@@ -1,0 +1,50 @@
+@import '../../base.scss';
+
+.u8-menu-col {
+    padding: 0;
+    margin: 0;
+}  
+#u8-sidebar {
+    position: relative;
+    z-index: 100;
+    //width: 15rem;
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+    //left: -12.5rem;
+    background-color: $base-blue-color;
+    border-right: 3px solid $base-gold-color;
+    .u8-menu {
+        position: sticky;
+        top: 0;
+    }
+}
+
+.u8-sidebar-close {
+    display: none;
+}
+
+.u8-menu {
+    margin: 0;
+    padding: 0;
+
+    i {
+        padding-right: 0.5rem;
+    }
+
+    .u8-open-close-sidebar {
+        padding: .5rem;
+    }
+}
+
+.u8-menu-item {
+    list-style-type: none;
+    color: $base-gold-color;
+    padding: 0.5rem 2rem;
+    border-bottom: 1px solid;
+}
+
+.u8-icon-menu {
+    padding: 0.5rem;
+    text-align: right;
+}
