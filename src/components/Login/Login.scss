@@ -1,0 +1,10 @@
+@import '../../base.scss';
+
+.auth-form {
+    padding: 5rem 10rem 0 10rem;
+
+    button {
+        background-color: $base-blue-color;
+        color: $base-gold-color;
+    }
+}
